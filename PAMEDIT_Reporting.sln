@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "PAMEDIT_Reporting", "PAMEDIT_Reporting\PAMEDIT_Reporting.rptproj", "{FA7D9514-5A91-409D-BA58-091A9EBFBE70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA7D9514-5A91-409D-BA58-091A9EBFBE70}.Debug|Default.ActiveCfg = Debug
+		{FA7D9514-5A91-409D-BA58-091A9EBFBE70}.Debug|Default.Build.0 = Debug
+		{FA7D9514-5A91-409D-BA58-091A9EBFBE70}.Debug|Default.Deploy.0 = Debug
+		{FA7D9514-5A91-409D-BA58-091A9EBFBE70}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{FA7D9514-5A91-409D-BA58-091A9EBFBE70}.DebugLocal|Default.Build.0 = DebugLocal
+		{FA7D9514-5A91-409D-BA58-091A9EBFBE70}.Release|Default.ActiveCfg = Release
+		{FA7D9514-5A91-409D-BA58-091A9EBFBE70}.Release|Default.Build.0 = Release
+		{FA7D9514-5A91-409D-BA58-091A9EBFBE70}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08E0D822-F159-4A28-A43D-5CC369876A0C}
+	EndGlobalSection
+EndGlobal
