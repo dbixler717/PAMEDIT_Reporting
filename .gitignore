@@ -259,3 +259,14 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/PAMEDIT_Reporting/ac_invoice_detail_invoice_all_products.rdl
+/PAMEDIT_Reporting/np_gift_acknowledgement_letter.rdl
+/PAMEDIT_Reporting/np_gift_acknowledgement_letter_template.rdl
+/PAMEDIT_Reporting/PAMED_ac_invoice_detail_invoice_all_products.rdl
+/PAMEDIT_Reporting/PAMED_ac_invoice_detail_invoice_all_products_backup.rdl
+/PAMEDIT_Reporting/pamed_dues_invoice_receipt.rdl
+/PAMEDIT_Reporting/pamed_dues_invoice_receipt_sub_report.rdl
+/PAMEDIT_Reporting/pamed_test.rdl
+/PAMEDIT_Reporting/pamed_test_report.rdl
+/PAMEDIT_Reporting/rpt_pamed_get_currentmembersbyaffiliation.rdl
+/PAMEDIT_Reporting/rpt_pamed_GetMemberTerminationsByCounty.rdl

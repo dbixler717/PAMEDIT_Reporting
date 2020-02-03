@@ -12,7 +12,7 @@
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
-    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+    <TargetServerURL>http://pamedsql06/reportserver/nfpamedsandbox/Custom%20Reports/</TargetServerURL>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
     <FullPath>DebugLocal</FullPath>
@@ -49,11 +49,53 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
+    <DataSource Include="netFORUMEP.rds" />
+  </ItemGroup>
+  <ItemGroup>
     <Report Include="ac_batch_exception_BatchReconciliation.rdl" />
+    <Report Include="ac_invoice_detail_invoice_all_products.rdl" />
+    <Report Include="client_pamed_Individual_Invoice_logo.rdl" />
+    <Report Include="client_pamed_Individual_Invoice_template_report.rdl" />
     <Report Include="lya_ac_batch_exception_BatchReconciliation - Backup.rdl" />
     <Report Include="lya_rpt_pamed_donations_received.rdl" />
+    <Report Include="lya_rpt_pamed_donations_received_detailed.rdl" />
     <Report Include="lya_rpt_pamed_fundraising_ac_batch_exception_BatchReconciliation.rdl" />
     <Report Include="lya_rpt_pamed_weekly_organization_enddates.rdl" />
+    <Report Include="np_gift_acknowledgement_letter.rdl" />
+    <Report Include="np_gift_acknowledgement_letter_template.rdl" />
+    <Report Include="pamedgroupbillingreport.rdl" />
+    <Report Include="pamed_ac_graphtech_invoice_survey_report.rdl" />
+    <Report Include="pamed_ac_individual_billing.rdl" />
+    <Report Include="PAMED_ac_invoice_detail_invoice_all_products.rdl" />
+    <Report Include="PAMED_ac_invoice_detail_invoice_all_products_backup.rdl" />
+    <Report Include="pamed_ac_paid_report.rdl" />
+    <Report Include="pamed_client_ac_county_payback.rdl" />
+    <Report Include="pamed_client_ac_county_payback_sub_report.rdl" />
+    <Report Include="pamed_client_group_billing.rdl" />
+    <Report Include="pamed_client_individuals_mismatched_countyaffil_to_invoice.rdl" />
+    <Report Include="pamed_client_pamed_county_change_data.rdl" />
+    <Report Include="pamed_client_pamed_county_non_mbr_practice_admin_hospital_staff.rdl" />
+    <Report Include="pamed_client_pamed_county_recruitable_physician.rdl" />
+    <Report Include="pamed_client_pamed_county_termination_details.rdl" />
+    <Report Include="pamed_client_pamed_individual_invoice_template.rdl" />
+    <Report Include="pamed_client_pamed_member.rdl" />
+    <Report Include="pamed_county_group.rdl" />
+    <Report Include="pamed_county_member.rdl" />
+    <Report Include="pamed_co_county_new_join_rejoin.rdl" />
+    <Report Include="pamed_co_customer_eweb_online_join.rdl" />
+    <Report Include="pamed_co_organization_frontline_plaque.rdl" />
+    <Report Include="pamed_dues_invoice_receipt.rdl" />
+    <Report Include="pamed_dues_invoice_receipt_sub_report.rdl" />
+    <Report Include="pamed_group_physician_details.rdl" />
+    <Report Include="pamed_individual_invoice_template_from_list.rdl" />
+    <Report Include="pamed_np_giving_statement.rdl" />
+    <Report Include="pamed_parent_organization_satellite_for_verification.rdl" />
+    <Report Include="pamed_test_report.rdl" />
+    <Report Include="rpt_pamed_client_individual_invoice_template.rdl" />
+    <Report Include="rpt_pamed_client_pamed_county_change_data.rdl" />
+    <Report Include="rpt_pamed_co_customer_new_eweb_account.rdl" />
+    <Report Include="rpt_pamed_GetMemberTerminationsByCounty.rdl" />
+    <Report Include="rpt_pamed_get_currentmembersbyaffiliation.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
